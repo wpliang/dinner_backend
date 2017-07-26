@@ -4,7 +4,7 @@
 		<groupId>com.dinner</groupId>
 		<artifactId>root-pom</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../root-pom/pom.xml</relativePath>
+		<relativePath>../../dinner_thirdparty/root-pom/pom.xml</relativePath>
 	</parent>
 	<artifactId>app</artifactId>
 	<version>${dinner-version}</version>
@@ -14,8 +14,8 @@
 		The master POM (and modules aggregator) for the framework components build
 	</description>
 	<modules>
-		<module>../dinner_common</module>
-		<module>../dinner_db</module>
+		<module>../../dinner_commons/dinner_common</module>
+		<module>../../dinner_commons/dinner_db</module>
 		<module>../dinner_service</module>
 		<module>../dinner_controller</module>
 	</modules>
